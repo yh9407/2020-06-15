@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML5 연습</title>
+  <style>
+    a {
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+      /* 마우스 올리면 hover/ 밑줄 */
+    }
+
+    a[id=honeyv]:link {
+      color: green;
+    }
+
+    a[id=honeyv]:visited {
+      color: red;
+    }
+
+    a[id=honeyv]:active {
+      color: blue;
+    }
+
+    textarea[name=text]:hover {
+      background-color: gray;
+    }
+
+    textarea[name=text]:focus {
+      border: 3px double blue;
+    }
+  </style>
+</head>
+
+<body>
+  <a id="honeyv" href="http://www.honeyv.com">허니비</a>
+  <br>
+  <textarea name="text"></textarea>
+  <br>
+  <a href="http://www.zdnet.co.kr" class="sel">ZDNET</a>
+  <br>
+  <a href="http://www.oss.kr" class="sel">공개SW포털</a>
+  <br>
+  <a href="http://devmento.co.kr" class="sel">Dev Mento</a>
+  <br>
+</body>
+
+</html>

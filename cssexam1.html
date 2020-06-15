@@ -1,0 +1,31 @@
+<!-- 선택자 문제 안쪽에 있는 p를 선택할 수 있는가? -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+ <style>
+   #wrap >p{
+     color: blue;
+  }
+   li:nth-of-type(5) > p {
+     color:red;
+   }
+ </style>
+</head>
+<body>
+  <div id="wrap">
+    <p>학습내용</p>
+    <ul>
+    <li><p>자바</p></li>
+    <li><h1>JAVA</h1></li>
+    <li><p>데이터베이스</p></li>
+    <li><h1>DATABASE</h1></li>
+    <li><p>스프링</p></li>
+    <li><h1>SPRING</h1></li>
+    </ul>
+    </div>
+  
+</body>
+</html>

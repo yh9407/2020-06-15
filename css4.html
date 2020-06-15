@@ -1,0 +1,35 @@
+<!-- 인접 형제 및 형제 선택자에 대해서 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML5 연습</title>
+  <style>
+    div>h3+input {
+      background: yellow;
+    }
+
+    div>h3~p {
+      color: purple;
+      font-weight: bold;
+      border: 1px solid red;
+    }
+
+    p+p {
+      font-size: 2em;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <h3>div 자식 h3</h3>
+    <input type="text" value="1" />
+    <input type="text" value="2" />
+    <p>div 형제1</p>
+    <p>div 형제2</p>
+  </div>
+</body>
+
+</html>

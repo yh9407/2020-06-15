@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML5 연습</title>
+  <style>
+    h5[title] {
+      background-color: red;
+    }
+
+    h5[class~=header] {
+      background-color: yellow;
+    }
+
+    h5[class^=con] {
+      background-color: blue;
+    }
+
+    h5[class$=esc] {
+      background-color: orange;
+    }
+
+    h5[class*=tiv] {
+      background-color: purple;
+    }
+
+    input[type=text] {
+      width: 50px;
+    }
+
+    input[type=password] {
+      background-color: red;
+    }
+
+    input[type=tel] {
+      font-size: 30px;
+    }
+
+    input[type=search] {
+      font-style: italic;
+    }
+  </style>
+</head>
+
+<body>
+  <h5>h5 제목</h5>
+  <h5 title="제목1">h5 제목 1</h5>
+  <h5 class="title header">h5 제목 2</h5>
+  <h5 class="content">h5 제목 3</h5>
+  <h5 class="desc">h5 제목 4</h5>
+  <h5 class="active">h5 제목 5</h5>
+  <input type="text"><br>
+  <input type="password"><br>
+  <input type="tel"><br>
+  <input type="search">
+</body>
+
+</html>
